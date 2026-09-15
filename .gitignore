@@ -10,3 +10,8 @@ desktop.ini
 *.bak
 *.orig
 *~
+
+# Staging area for original photos - the processed copies in assets/img/ are
+# what ships, so the large originals should not bloat the repo history.
+incoming-photos/*
+!incoming-photos/README.md
