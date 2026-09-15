@@ -4,7 +4,7 @@ Marketing website for **Mayflower Catering Services**, a catering business on Re
 
 Static site — plain HTML, CSS and JavaScript. No build step, no dependencies.
 
-**Live site:** https://joel3541.github.io/Mayflower-Catering-Website/
+**Live site:** https://joel3541.github.io/mayflower-catering-website/
 
 ---
 

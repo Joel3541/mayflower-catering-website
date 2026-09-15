@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joel3541.github.io/Mayflower-Catering-Website/sitemap.xml
+Sitemap: https://joel3541.github.io/mayflower-catering-website/sitemap.xml
