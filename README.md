@@ -85,12 +85,20 @@ Hosted on **GitHub Pages** from the `main` branch, root folder. Any push to `mai
 These are genuine gaps, not nitpicks:
 
 1. **The photos are stock, not Mayflower's.** The gradient placeholders are gone and the site looks finished, which makes this easier to forget rather than less important. Catering customers buy what they see in the picture. Real photos of Mayflower's own food and events should replace these — the Facebook page (https://www.facebook.com/MayflowerGhana/) is the most likely existing source. See the Photography section above for how to swap them.
-2. **Testimonials are invented.** The three quotes in `#testimonials` are placeholder copy with made-up names. Replace them with real, permissioned customer quotes — or delete the section. Publishing fabricated reviews is a real legal and trust risk.
-3. **Package prices are placeholders.** GH₵50 / 75 / 120 / 150+ are illustrative. Confirm the actual rates.
-4. **No email address.** The original draft used `info@mayflowercatering.com`, which does not resolve to a verified mailbox, so it was removed rather than left as a dead contact route. Add a real one when available.
-5. **About copy** is factual but generic. Add the business's real history and signature dishes.
-6. **Booking form has no backend.** It opens WhatsApp with the enquiry pre-filled. That works, but nothing is stored. Consider Formspree, Netlify Forms, or a Google Form if you want an enquiry record.
-7. **Add the website URL to the Google listing.** The Google Business Profile currently has no website and is unclaimed ("Claim this business"). Claiming it and adding this URL is the highest-leverage local-SEO step available.
+2. **Package prices are placeholders.** GH₵50 / 75 / 120 / 150+ are illustrative. Confirm the actual rates.
+3. **No email address.** The original draft used `info@mayflowercatering.com`, which does not resolve to a verified mailbox, so it was removed rather than left as a dead contact route. Add a real one when available.
+4. **About copy** is factual but generic. Add the business's real history and signature dishes.
+5. **Booking form has no backend.** It opens WhatsApp with the enquiry pre-filled. That works, but nothing is stored. Consider Formspree, Netlify Forms, or a Google Form if you want an enquiry record.
+6. **Add the website URL to the Google listing.** The Google Business Profile currently has no website and is unclaimed ("Claim this business"). Claiming it and adding this URL is the highest-leverage local-SEO step available.
+
+## Reviews section
+
+The site previously carried three invented testimonials attributed to named
+people. They were removed — publishing fabricated reviews is both a trust and a
+legal problem. The `#reviews` section now shows only the real 4.2 Google rating
+and links to the listing, so every claim on the page is verifiable.
+
+If you add real testimonials later, use quotes you have permission to publish.
 
 ## Structured data
 
