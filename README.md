@@ -19,9 +19,11 @@ These are sourced from the [Google Business Profile listing](https://maps.app.go
 | **Plus Code** | MX4G+PP Accra |
 | **Coordinates** | 5.6568432, -0.0232444 |
 | **Phone / WhatsApp** | +233 50 019 4301 |
-| **Google rating** | 4.2 |
-| **Category** | Catering service / Restaurant |
-| **Facebook** | https://www.facebook.com/MayflowerGhana/ |
+| **Google rating** | 4.2 from 381 reviews |
+| **Category** | Restaurant (Google's own category; "Caterer" would serve them better) |
+| **Service options** | Dine-in · Takeaway · Delivery |
+| **Price range** | GH₵1–200 per person (crowd-reported on Google, 15 people) |
+| **Menu highlights** | Breakfast Hamper, Banku with Tilapia; reviews cite meat pies and pastries |
 | **Hours** | Mon–Sat 8:00 AM – 9:00 PM · Sun 2:00 PM – 8:00 PM |
 
 > **Note on hours:** Google's public listing only exposes the *current day's* hours to signed-out visitors, and it confirmed **Tuesday 8 am – 9 pm**. The rest of the week above is carried over from the original draft and is consistent with what Google shows, but it has not been verified day-by-day. Confirm with the business before relying on it.
@@ -84,7 +86,7 @@ Hosted on **GitHub Pages** from the `main` branch, root folder. Any push to `mai
 
 These are genuine gaps, not nitpicks:
 
-1. **The photos are stock, not Mayflower's.** The gradient placeholders are gone and the site looks finished, which makes this easier to forget rather than less important. Catering customers buy what they see in the picture. Real photos of Mayflower's own food and events should replace these — the Facebook page (https://www.facebook.com/MayflowerGhana/) is the most likely existing source. See the Photography section above for how to swap them.
+1. **The photos are stock, not Mayflower's.** The gradient placeholders are gone and the site looks finished, which makes this easier to forget rather than less important. Catering customers buy what they see in the picture. Real photos of Mayflower's own food and events should replace these. Drop originals in `incoming-photos/` — see the Photography section above. The Google listing has no photos either, so the same shoot fixes both.
 2. **Package prices are placeholders.** GH₵50 / 75 / 120 / 150+ are illustrative. Confirm the actual rates.
 3. **No email address.** The original draft used `info@mayflowercatering.com`, which does not resolve to a verified mailbox, so it was removed rather than left as a dead contact route. Add a real one when available.
 4. **About copy** is factual but generic. Add the business's real history and signature dishes.
@@ -102,4 +104,8 @@ If you add real testimonials later, use quotes you have permission to publish.
 
 ## Structured data
 
-`index.html` includes JSON-LD (`CateringService` / `Restaurant`) with the address, coordinates, opening hours, service area and Facebook profile. `aggregateRating` is deliberately **omitted** — Google shows a 4.2 rating but does not publicly expose a review count, and publishing a rating without a verifiable count risks a structured-data penalty. Add it once the real count is known.
+`index.html` includes JSON-LD (`CateringService` / `Restaurant`) with the address, coordinates, opening hours, service area and `aggregateRating` (4.2 from 381 reviews).
+
+> **A correction worth recording.** The rating was initially left out of the structured data, and the site's "380+ reviews" line was removed as fabricated, because Google's signed-out listing view hides the review count — it shows the rating alone. The count was real: 381. "Not visible" was mistaken for "not true." Both have been restored from the full listing.
+
+No `sameAs` is declared. A Facebook page was found and initially linked, but its ownership could not be confirmed, so it was removed. Every detail on the site now traces to the Google Business Profile.
