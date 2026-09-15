@@ -114,6 +114,13 @@ img{max-width:100%;display:block}
 .review-actions{display:flex;gap:12px;flex-wrap:wrap}
 .btn-outline-dark{border:1px solid #cdbfa8;color:#8c621f;background:transparent}
 .btn-outline-dark:hover{border-color:var(--gold);background:#fdfaf4}
+.review-quotes{max-width:1040px;margin:26px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.review-quote{background:#fff;border:1px solid var(--border);border-radius:5px;padding:26px 24px;text-align:center;display:flex;flex-direction:column}
+.review-quote blockquote{font-family:"Cormorant Garamond",serif;font-size:19px;line-height:1.38;margin:14px 0 18px;flex:1}
+.review-quote strong{display:block;font-size:11px}
+.review-quote small{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+.review-source{text-align:center;font-size:10px;line-height:1.7;color:var(--muted);margin:22px auto 0;max-width:600px}
+.review-source a{color:#8c621f;text-decoration:underline}
 
 .booking{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px;padding-left:9%;padding-right:9%}
 .booking h2{font-size:57px;margin-bottom:20px}
@@ -197,6 +204,7 @@ footer a:hover{color:var(--gold)}
   .review-panel{grid-template-columns:1fr;gap:24px;padding:28px 24px;text-align:center}
   .review-score{padding-right:0;padding-bottom:22px;border-right:0;border-bottom:1px solid var(--border)}
   .review-actions{justify-content:center}
+  .review-quotes{grid-template-columns:1fr}
   .gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:160px}
   .booking{gap:40px;padding-left:7%;padding-right:7%}
   footer{flex-direction:column;gap:14px;text-align:center}

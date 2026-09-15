@@ -95,12 +95,32 @@ These are genuine gaps, not nitpicks:
 
 ## Reviews section
 
-The site previously carried three invented testimonials attributed to named
-people. They were removed — publishing fabricated reviews is both a trust and a
-legal problem. The `#reviews` section now shows only the real 4.2 Google rating
-and links to the listing, so every claim on the page is verifiable.
+The site previously carried three invented testimonials attributed to made-up
+names. Those were removed. The section now shows the real 4.2 rating, the 381
+review count, and three genuine quotes taken from the public Google listing,
+each attributed to the reviewer with their Local Guide standing.
 
-If you add real testimonials later, use quotes you have permission to publish.
+Every quoted reviewer's star rating was read directly from the listing rather
+than inferred from position in the page — one review whose text reads positively
+("customers friendly staff and good food") is in fact rated 2 stars, so
+assuming a rating from tone would have misattributed it.
+
+Quotes carry a source note linking to the listing, and `…` marks any shortened
+quote. No `Review` schema is emitted: Google's structured-data guidelines
+discourage marking up reviews collected on another platform. Only
+`aggregateRating` is declared.
+
+### What the reviews say that the site does not
+
+The most consistent criticism across five years is **waiting time** — raised in
+2023 ("more room for improvement for the waiting time", 2 stars) and in 2018
+("waited over an hour for breakfast", 2 stars). The package benefits box on the
+site claims **"On-time Delivery — We value your time."**
+
+That claim is the one thing on the page contradicted by the business's own
+reviews. It was left in place because whether it is true is an operational
+question for the business, not a copy decision. Worth a deliberate answer:
+either it reflects how the catering side actually runs, or the claim should go.
 
 ## Structured data
 
