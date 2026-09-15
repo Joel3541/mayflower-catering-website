@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mayflower Catering Services">
+  <rect width="64" height="64" rx="12" fill="#171009"/>
+  <rect x="4" y="4" width="56" height="56" rx="9" fill="none" stroke="#c99a3d" stroke-width="1.5" opacity=".55"/>
+  <text x="32" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="600"
+        text-anchor="middle" fill="#e3bd6b">M</text>
+</svg>
