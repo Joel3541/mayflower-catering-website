@@ -117,10 +117,15 @@ The most consistent criticism across five years is **waiting time** — raised i
 ("waited over an hour for breakfast", 2 stars). The package benefits box on the
 site claims **"On-time Delivery — We value your time."**
 
-That claim is the one thing on the page contradicted by the business's own
-reviews. It was left in place because whether it is true is an operational
-question for the business, not a copy decision. Worth a deliberate answer:
-either it reflects how the catering side actually runs, or the claim should go.
+That claim has been **removed** at the owner's instruction. The slot now reads
+"Delivery & Takeaway — Available alongside dine-in", which states a service
+option Google lists rather than promising a standard the reviews dispute.
+
+Phil Owusu-Ansah's quote in the reviews section does say services "were quick
+and good". That stays: it is his words, attributed to him and checkable against
+the listing, not a claim the business is making about itself. The distinction
+is the point — a customer may say whatever they experienced; the business should
+not assert as policy something its own reviews contradict.
 
 ## Structured data
 
