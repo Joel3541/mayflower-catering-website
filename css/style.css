@@ -91,6 +91,8 @@ img{max-width:100%;display:block}
 .package-body p{font-size:12px;color:#bdb1a2;min-height:43px;margin:5px 0 15px}
 .package-body strong{display:block;font-family:"Cormorant Garamond",serif;font-size:22px;color:#f5e4c4;margin-bottom:14px}
 .package-body strong small{font:10px "DM Sans";color:#bdb1a2}
+/* Not a price - a smaller label, so the slot reads as intentional */
+.package-body .package-quote{font-family:"DM Sans",sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold-light);margin-bottom:16px}
 .package-body .btn{width:100%}
 .package-benefits{display:flex;flex-direction:column;gap:23px;padding-top:10px}
 .package-benefits div{display:flex;gap:13px}

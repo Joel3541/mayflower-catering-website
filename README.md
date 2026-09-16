@@ -87,11 +87,27 @@ Hosted on **GitHub Pages** from the `main` branch, root folder. Any push to `mai
 These are genuine gaps, not nitpicks:
 
 1. **The photos are stock, not Mayflower's.** The gradient placeholders are gone and the site looks finished, which makes this easier to forget rather than less important. Catering customers buy what they see in the picture. Real photos of Mayflower's own food and events should replace these. Drop originals in `incoming-photos/` — see the Photography section above. The Google listing has no photos either, so the same shoot fixes both.
-2. **Package prices are placeholders.** GH₵50 / 75 / 120 / 150+ are illustrative. Confirm the actual rates.
-3. **No email address.** The original draft used `info@mayflowercatering.com`, which does not resolve to a verified mailbox, so it was removed rather than left as a dead contact route. Add a real one when available.
-4. **About copy** is factual but generic. Add the business's real history and signature dishes.
-5. **Booking form has no backend.** It opens WhatsApp with the enquiry pre-filled. That works, but nothing is stored. Consider Formspree, Netlify Forms, or a Google Form if you want an enquiry record.
-6. **Add the website URL to the Google listing.** The Google Business Profile currently has no website and is unclaimed ("Claim this business"). Claiming it and adding this URL is the highest-leverage local-SEO step available.
+2. **No email address.** The original draft used `info@mayflowercatering.com`, which does not resolve to a verified mailbox, so it was removed rather than left as a dead contact route. Add a real one when available.
+3. **Booking form has no backend.** It opens WhatsApp with the enquiry pre-filled. That works, but nothing is stored. Consider Formspree, Netlify Forms, or a Google Form if you want an enquiry record.
+4. **Add the website URL to the Google listing.** The Google Business Profile currently has no website and is unclaimed ("Claim this business"). Claiming it and adding this URL is the highest-leverage local-SEO step available.
+
+## Pricing
+
+The four packages carry no per-person figures. The original draft showed
+GH₵50 / 75 / 120 / 150+; those were placeholders, not the business's rates, and
+were removed at the owner's instruction rather than replaced with new guesses.
+
+Each card now reads "Quote on request" above its Request a Quote button. This
+is normal for catering, where cost follows menu, guest count and venue - and
+the section already said every quote is tailored, so the fixed figures were
+contradicting the copy beside them.
+
+Google's listing reports GH₵1-200 per person, crowd-sourced from 15 people. That
+is too wide to build tiers on and probably reflects restaurant covers rather
+than catering, so it is recorded here rather than shown on the site.
+
+To reintroduce prices, replace the `.package-quote` span in each card in
+`index.html`. The old markup was `<strong>From GH₵NN <small>/ person</small></strong>`.
 
 ## Reviews section
 
